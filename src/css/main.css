@@ -4,6 +4,7 @@
 	--white: #ffffff;
 	--azul: #376ADE;
 	--negro: #363636;
+	--azul-claro: #F0F2F7;
 
 }
 ::-webkit-scrollbar { width: ; }
@@ -18,7 +19,7 @@
 .texts-xl { font-size: 2rem; line-height: 1.2; }
 .texts-l { font-size: 1.4rem; }
 .texts-m { font-size: 1.25rem; line-height: 1.4; }
-.texts-s {  }
+.texts-s { font-size: .85rem; line-height: 1.3; }
 .texts-xs {  }
 
 

@@ -23,25 +23,25 @@ function App() {
             <ul className="network-logos">
               {/*Worldcoin*/}
               <li>
-                <a href="" target="_blank">
+                <a href="https://worldcoin.org/" target="_blank">
                   <img src="./img/logo/worldcoin-logo-blue.png" />
                 </a>
               </li>
               {/*Polygon*/}
               <li>
-                <a href="" target="_blank">
+                <a href="https://polygon.technology/sustainability/" target="_blank">
                   <img src="./img/logo/polygon-logo-blue.png" />
                 </a>
               </li>
               {/*IPFS*/}
               <li>
-                <a href="" target="_blank">
+                <a href="https://ipfs.tech/" target="_blank">
                   <img src="./img/logo/ipfs-logo-blue.png" />
                 </a>
               </li>
               {/*Wallet Connect*/}
               <li>
-                <a href="" target="_blank">
+                <a href="https://walletconnect.com/" target="_blank">
                   <img src="./img/logo/walletconnect-logo-blue.png" />
                 </a>
               </li>
@@ -50,7 +50,7 @@ function App() {
         </div>
       </header>
       {/*Why Eezywards*/}
-      <section>
+      <section id="why">
         <hr />
         <div className="container">
           <p className="texts-l">Why Eezywards?</p>
@@ -86,7 +86,35 @@ function App() {
             </div>
           </div>
         </div>
-
+      </section>
+      {/*Use it your way*/}
+      <section id="useit">
+        <div className="container">
+          <p className="texts-l">Use it your way</p>
+          <p className="texts-xl">Ease of use for buyers and customers</p>
+          <div className="row">
+            <div className="col-12 col-md-6 cards">
+              <div className="row">
+                <div className="col-9 image image-seller">
+                  <p className="texts-xl">Seller</p>
+                </div>
+                <div className="col-3 caption">
+                  <p className="texts-s">Pay with ease with a QR code, earn loyalty achievements and redeemable coupons.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 cards">
+              <div className="row">
+                <div className="col-9 image image-customer">
+                  <p className="texts-xl">Customer</p>
+                </div>
+                <div className="col-3 caption">
+                  <p className="texts-s">Set up your payment station in order to reward loyal customers through Web3 gifts.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
