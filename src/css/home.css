@@ -51,3 +51,25 @@ body main section .cards:hover .caption { box-shadow: 0px 1px 25px 0px rgba(0, 0
 #useit { background-color: var(--azul-claro); }
 #useit .texts-l { text-align: center; }
 #useit .texts-xl { text-align: center; margin-left: auto; margin-right: auto; }
+
+/**********Large (lg)**********/
+@media (max-width: 1199.98px) {}
+
+/**********Medium (md)**********/
+@media (max-width: 991.98px) {
+	body main section .texts-xl { width: 75%; }
+	body main section .row .square { margin: .5rem 0; }
+}
+
+/**********Small (sm)**********/
+@media (max-width: 767.98px) {
+	body main header .container .top-items { width: 100%; }
+	body main header .container .bottom-items ul.network-logos li a img { width: 95%; }
+	body main section .cards { margin-bottom: 3rem; }
+}
+
+/**********Extra small (xs)**********/
+@media (max-width: 575.98px) {
+	body main section .texts-l { text-align: center; }
+	body main section .texts-xl { text-align: center; width: 85%; margin-left: auto; margin-right: auto; }
+}
