@@ -14,7 +14,9 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Navbar />
     <App />
+    <Footer />
   </React.StrictMode>
 );
 
