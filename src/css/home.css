@@ -21,4 +21,15 @@ body main header .container .bottom-items ul.network-logos li { width: 100%; }
 body main header .container .bottom-items ul.network-logos li a { display: block; }
 body main header .container .bottom-items ul.network-logos li a img { width: 80%; display: block; margin: auto; }
 
-body main section {  }
+body main section { padding: 1.5rem 0 3rem 0; }
+body main section hr { width: 60%; border-top: 1px solid rgba(0,0,0,.2); }
+body main section .container { padding-top: 2.6rem; }
+body main section .texts-l { color: var(--azul); font-weight: 600; margin-bottom: 1.2rem; }
+body main section .texts-xl { color: var(--negro); font-weight: 700; width: 45%; margin-bottom: 2.5rem; }
+body main section .row { height: 100%; flex-direction: row; align-items: flex-end; }
+body main section .row .square { height: 100%; }
+body main section .row .square .media-obj { display: flex; position: relative; height: 100%; margin-bottom: 1rem; }
+body main section .row .square .media-obj h5 { margin-bottom: 0; width: 85%; padding-left: .5rem; color: var(--azul); font-weight: 600; }
+body main section .row .square .media-obj .list-decor { width: 5px; min-width: 5px; height: unset; background-color: var(--azul); border-radius: 2rem; }
+/*body main section .row .square .media-obj .mo-title {  }*/
+body main section .row .square .mo-text { line-height: 1.2; font-weight: 400; }
