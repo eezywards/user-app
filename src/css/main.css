@@ -15,9 +15,9 @@
 .texts-t2 { font-size: 1.8rem; }
 .texts-t3 {  }
 
-.texts-xl {  }
-.texts-l { font-size: 1.3rem; }
-.texts-m { font-size: 1rem; }
+.texts-xl { font-size: 2rem; line-height: 1.2; }
+.texts-l { font-size: 1.4rem; }
+.texts-m { font-size: 1.25rem; line-height: 1.4; }
 .texts-s {  }
 .texts-xs {  }
 

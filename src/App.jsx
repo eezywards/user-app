@@ -48,6 +48,45 @@ function App() {
           </div>
         </div>
       </header>
+      {/*Why Eezywards*/}
+      <section>
+        <hr />
+        <div className="container">
+          <p className="texts-l">Why Eezywards?</p>
+          <p className="texts-xl">Securing rewards program through blockchain</p>
+          <div className="row">
+            <div className="col-12 col-md-6 col-lg-3 square">
+              <div className="media-obj">
+                <div className="list-decor"></div>
+                <h5 className="texts-m mo-title">Unique identification and unrepeatable</h5>
+              </div>
+              <p className="texts-m mo-text">Stripe opera  optimizando todos los niveles de la pila financiera, desde integracion directas con las redes de las tarjetas y bancos hasta flujos de compra en el navegador.</p>
+            </div>
+            <div className="col-12 col-md-6 col-lg-3 square">
+              <div className="media-obj">
+                <div className="list-decor"></div>
+                <h5 className="texts-m mo-title">Safe assets transfers</h5>
+              </div>
+              <p className="texts-m mo-text">Stripe opera  optimizando todos los niveles de la pila financiera, desde integracion directas con las redes de las tarjetas y bancos hasta flujos de compra en el navegador.</p>
+            </div>
+            <div className="col-12 col-md-6 col-lg-3 square">
+              <div className="media-obj">
+                <div className="list-decor"></div>
+                <h5 className="texts-m mo-title">Non-transferable achievements</h5>
+              </div>
+              <p className="texts-m mo-text">Stripe opera  optimizando todos los niveles de la pila financiera, desde integracion directas con las redes de las tarjetas y bancos hasta flujos de compra en el navegador.</p>
+            </div>
+            <div className="col-12 col-md-6 col-lg-3 square">
+              <div className="media-obj">
+                <div className="list-decor"></div>
+                <h5 className="texts-m mo-title">Loyalty coupons</h5>
+              </div>
+              <p className="texts-m mo-text">Stripe opera  optimizando todos los niveles de la pila financiera, desde integracion directas con las redes de las tarjetas y bancos hasta flujos de compra en el navegador.</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
     </main>
   );
 }
