@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Home from './pages/Home';
+import Dashboard from './pages/Dashboard';
 // import Login from './pages/Login';
 // import Signup from './pages/Signup';
 
@@ -16,6 +17,7 @@ function App() {
                 <Route path="/" element={ <Home /> } />
                 {/*<Route path="/login" element={ <Login /> } />
                 <Route path="/signup" element={ <Signup /> } />*/}
+                <Route path="/dashboard" element={ <Dashboard /> } />
             </Routes>
            
     </Router>

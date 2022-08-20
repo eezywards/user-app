@@ -4,7 +4,7 @@ import '../css/home.css';
 
 function Content() {
   return (
-    <main>
+    <main id="home">
       <header>
         <div className="blue-stripe"></div>
         <div className="container">
