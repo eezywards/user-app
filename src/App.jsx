@@ -1,7 +1,8 @@
 import React from 'react';
 
 import Home from './pages/Home';
-// import Login from './pages/Login';
+import Login from "./pages/login-mobile";
+import LoginWallet from './pages/loginwallet';
 // import Signup from './pages/Signup';
 
 import Navbar from './components/Navbar';
@@ -14,8 +15,8 @@ function App() {
     <Router>
             <Routes>
                 <Route path="/" element={ <Home /> } />
-                {/*<Route path="/login" element={ <Login /> } />
-                <Route path="/signup" element={ <Signup /> } />*/}
+                <Route path="/login-mobile" element={ <Login /> } />
+                <Route path="/loginwallet" element={ <LoginWallet /> } />
             </Routes>
            
     </Router>

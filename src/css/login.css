@@ -1,0 +1,31 @@
+.allsection{background-color: var(--azul-claro); height: 100vh}
+.logos{  position: absolute;
+    left: 50%;
+    top: 35%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);}
+
+.bcontainers{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.button{
+    border: none;
+    color: var(--white);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 6em;
+    padding-right: 6rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 15px;
+}
+
+.button1{
+    color:black;
+}
+
+.text{color: black;}
