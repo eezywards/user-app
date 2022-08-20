@@ -29,3 +29,20 @@
     padding-top: 2rem;
     text-align: right;
 }
+
+@media screen and (max-width: 600px) {
+    .col-sm-5{
+        text-align: center;
+    }
+    .col-sm-2{
+        text-align: center;
+        padding-top: 1rem;
+        width: 50%;
+    }
+    .col-sm-3{
+        text-align: center;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+  }
