@@ -1,20 +1,21 @@
-// Navbar.js
+import React, { useContext } from "react";
 import "../css/nav.css";
 import "../css/main.css";
+import { NavLink, Router, Routes, Route } from "react-router-dom";
 
 export default function Navbar() {
     return (
       <nav className="navigation">
-        <a href="/" className="brand-name">
+        <NavLink to="/" className="brand-name">
           Eezywards
-        </a>
+        </NavLink>
         <div className="navigation-menu">
           <ul>
             <li>
-              <a href=""><button class="button button1">Log in</button></a>
+              <NavLink to=""><button class="button button1">Log in</button></NavLink>
             </li>
             <li>
-            <a href=""><button class="button button2">Sign Up</button></a>
+            <NavLink to=""><button class="button button2">Sign Up</button></NavLink>
             </li>
           </ul>
         </div>
