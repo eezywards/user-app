@@ -8,10 +8,10 @@ function Login() {
         <div className="logos">
             <img src="img/logo/eezywards-logo.svg"/>
             <div className="bcontainers">
-                <button class="button button1">Log in</button>
+            <NavLink to="/loginwallet"> <button class="button buttonl1">Log in</button></NavLink>
             </div>
             <div className="bcontainers">
-                <button class="button button2">Sign up</button>
+            <NavLink to="/signup"><button class="button buttonl2">Sign up</button></NavLink>
             </div>
             <div className="bcontainers">
             <NavLink to="/"><span class="text">Go back</span></NavLink>

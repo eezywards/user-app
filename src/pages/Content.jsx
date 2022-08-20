@@ -17,7 +17,7 @@ function Content() {
             <p className="texts-t2">
               Decentralized coupons and rewards center bridging Web3 and Web2.
             </p>
-            <NavLink to="/loginwallet" ><button className="btn-type-1 texts-l">Launch App</button></NavLink>
+            <NavLink to="/login-mobile" ><button className="btn-type-1 texts-l">Launch App</button></NavLink>
           </div>
           <div className="bottom-items">
             <ul className="network-logos">
