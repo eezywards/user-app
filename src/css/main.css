@@ -11,12 +11,12 @@
 ::-webkit-scrollbar-thumb { background-color: ; }
 ::-webkit-scrollbar-thumb:hover { background-color: ; }
 
-.texts-t1 { font-size: 2rem; }
-.texts-t2 {  }
+.texts-t1 { font-size: 4rem; line-height: 1.1; }
+.texts-t2 { font-size: 1.8rem; }
 .texts-t3 {  }
 
 .texts-xl {  }
-.texts-l {  }
+.texts-l { font-size: 1.3rem; }
 .texts-m { font-size: 1rem; }
 .texts-s {  }
 .texts-xs {  }
