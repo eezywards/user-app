@@ -13,7 +13,8 @@ body.open-nav #dashboard .nav-menu { transform: translateY(0); }
 body #dashboard .nav-menu {  }
 body #dashboard .nav-menu .container { height: 100%; position: relative; }
 body #dashboard .nav-menu .logout { position: absolute; bottom: 0; }
-body #dashboard .nav-menu .logout a { color: var(--white); font-weight: 400; text-decoration: none; display: block; margin-bottom: .5rem; }
+body #dashboard .nav-menu .logout a { color: var(--white); font-weight: 400; text-decoration: none; display: block; margin-bottom: 1rem; }
+body #dashboard .nav-menu .logout a img { width: 1rem; height: auto; filter: invert(100%); margin-left: .8rem; vertical-align: baseline; }
 body #dashboard .nav-menu ul { margin-bottom: 0; padding-left: 0; list-style: none; padding-top: 6rem; }
 body #dashboard .nav-menu ul li { margin-bottom: 2.5rem; }
 body #dashboard .nav-menu ul li a { text-decoration: none; display: flex; flex-direction: row; flex-wrap: nowrap; align-content: center; justify-content: space-between; align-items: flex-end; }
@@ -49,7 +50,7 @@ body #dashboard section .cards { margin-bottom: 2rem; }
 body #dashboard section .cards.disabled { opacity: .55; }
 body #dashboard section .cards .row { flex-direction: column; padding: 0 2rem;  }
 body #dashboard section .cards .image { background-size: cover; min-height: 10rem; min-width: 100%; border-radius: 2rem 2rem 0 0; transition: 0.5s; background-position: center; background-repeat: no-repeat; }
-body #dashboard section .cards .image p { color: var(--white); text-align: left!important; margin-left: 1.2rem!important; margin-top: 1.2rem; font-weight: 500; font-size: 1.5rem; }
+body #dashboard section .cards .image p { color: var(--white); text-align: left!important; margin-left: 1.2rem!important; margin-top: 1.2rem; font-weight: 500; font-size: 1.5rem; text-shadow: 5px 5px 10px var(--negro); }
 body #dashboard section .cards .image p span.sp { font-weight: 400; }
 body #dashboard section .cards .image-collection { background-image: url("../../public/img/collection-img.jpg"); }
 body #dashboard section .cards .image-coupons { background-image: url("../../public/img/coupon-img.jpg"); }
@@ -69,3 +70,9 @@ body #dashboard section .cards:hover .caption { box-shadow: 0px 1px 25px 0px rgb
 #dashboard section.collection .container .title-row .texts-xl { font-weight: 700; margin-bottom: 0; }
 #dashboard section.collection .container .title-row a { color: var(--azul); text-decoration: none; font-weight: 500; display: flex; height: 100%; align-items: flex-end; justify-content: flex-end; }
 #dashboard section.collection .container .title-row a img { width: auto; height: 1.3rem; margin-left: .5rem; filter: var(--filter-azul); }
+
+#dashboard section.collection .container .nft-metadata {  }
+#dashboard section.collection .container .nft-metadata .nft-img {  }
+#dashboard section.collection .container .nft-metadata .nft-img img { display: block; margin-left: auto; margin-right: auto; width: 100%; }
+#dashboard section.collection .container .nft-metadata .nft-achievements {  }
+#dashboard section.collection .container .nft-metadata .nft-coupons {  }

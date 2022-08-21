@@ -67,7 +67,7 @@ function UserAppNav() {
 						</li>
 					</ul>
 					<div className="logout">
-						<NavLink to="/" onClick={closeNav} className="texts-t3">Log out</NavLink>
+						<NavLink to="/" onClick={closeNav} className="texts-t3">Log out<img src="img/icons/logout.svg" /></NavLink>
 					</div>
 				</div>
 			</div>
