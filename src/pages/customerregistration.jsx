@@ -66,7 +66,7 @@ function Curegistration() {
                     onError={(error) => console.error(error)}
                 />
                 <div className="bcontainers">
-                    <button disabled={!isValidated && !isConnected && email} class="button buttonl2">Sign Up</button>
+                    <NavLink to="/dashboard"><button disabled={!isValidated && !isConnected && email} class="button buttonl2">Sign Up</button></NavLink>
                 </div>
                 <div className="bcontainers">
                     <NavLink to="/"><span class="text">Go back</span></NavLink>

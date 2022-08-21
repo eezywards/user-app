@@ -14,7 +14,8 @@ function Vendregistration() {
             <input class="form-control" type="text"  placeholder="Enter your mail" />
             </div>
             <div className="bcontainers">
-                <button class="button buttonl2">Sign and connect</button>
+                <button class="button buttonl2">Contact us</button> 
+                {/* todo: add endpoint to send mail */}
             </div>
             <div className="bcontainers">
             <NavLink to="/"><span class="text">Go back</span></NavLink>

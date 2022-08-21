@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useContext} from 'react';
 
 
 import '../css/main.css';
@@ -9,10 +9,11 @@ import abi from '../abi.js';
 
 import UANavbar from '../components/UserAppNav';
 
-
+import { DataContext } from "../context/DataContext";
 
 function Collections() {
 
+	const { selected, setSelected } = useContext(DataContext);
 	const [collections, setCollections] = useState(null)
 
 	const getTokens = async() => {
@@ -33,6 +34,7 @@ function Collections() {
 			const data = await response.json();
 			await console.log(data);
 			info.push(data);
+			setSelected(data);
 		}
 		await setCollections(info);
 		await console.log(collections);

@@ -42,7 +42,8 @@ function LoginWallet() {
                         <button onClick={connectMetamask} class="button buttonl4">Connect wallet <img src="img/logo/metamask.svg" width={20} height={20} /></button>
                     )}
                     <div className="signin" style={{paddingTop: "10px"}}>
-                    <button className="button buttonl4" onClick={getUser}>Login</button>
+                        <NavLink to="/dashboard"><button disabled={!isConnected} className="button buttonl4" >Login</button></NavLink>
+                    
                     </div>
                 </div>
                 <div className="bcontainers">
