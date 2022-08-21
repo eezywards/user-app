@@ -1,7 +1,10 @@
 import React from 'react';
 
 import Home from './pages/Home';
+import UserApp from './pages/UserApp';
 import Dashboard from './pages/Dashboard';
+import Collection from './pages/Collection';
+import Coupons from './pages/Coupons';
 // import Login from './pages/Login';
 // import Signup from './pages/Signup';
 
@@ -17,7 +20,11 @@ function App() {
                 <Route path="/" element={ <Home /> } />
                 {/*<Route path="/login" element={ <Login /> } />
                 <Route path="/signup" element={ <Signup /> } />*/}
+
+                <Route path="/userapp" element={ <UserApp /> } />
                 <Route path="/dashboard" element={ <Dashboard /> } />
+                <Route path="/collection" element={ <Collection /> } />
+                <Route path="/coupons" element={ <Coupons /> } />
             </Routes>
            
     </Router>
