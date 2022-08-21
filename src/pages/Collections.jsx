@@ -26,29 +26,16 @@ function Collections() {
 		const tokens = await contract.balanceOf(account);
 
 		console.log(tokens);
+		const info = [];
 		for (var i=0; i < 2; i++) {
 			const uri = await contract.tokenURI(i);
 			const response = await fetch(uri);
 			const data = await response.json();
-			console.log(data);
-			await setCollections(data);
-			var name = data.name;
-			var desc = data.description;
-			var img = data.image;
-			var elem = `<div class="col-12 col-md-4 cards">
-						  <div class="row">
-						    <div class="col-9 image" style="background-image: url('` + img + `');">
-						      <p class="texts-xl">` + name + `</p>
-						    </div>
-						    <div class="col-3 caption">
-						      <p class="texts-sm">` + desc + `</p>
-						      <a href="/" class="btn-type-1">View more<img src="img/icons/arrow.svg" /></a>
-						    </div>
-						  </div>
-						</div>`;
-			var collections = await document.getElementById("nft-collections");
-			await collections.insertAdjacentHTML('beforeend', elem);
+			await console.log(data);
+			info.push(data);
 		}
+		await setCollections(info);
+		await console.log(collections);
 	}
 
 	useEffect(() => {
@@ -70,19 +57,21 @@ function Collections() {
 						</div>
 					</div>
 					<div id="nft-collections" className="row">
-						{collections.map(item => (
-							<div class="col-12 col-md-4 cards">
-						  <div class="row">
-						    <div class="col-9 image" style="background-image: url('` +' + {item.image} '+ `');">
-						      <p class="texts-xl">` + item.name + `</p>
-						    </div>
-						    <div class="col-3 caption">
-						      <p class="texts-sm">` + item.description + `</p>
-						      <a href="/" class="btn-type-1">View more<img src="img/icons/arrow.svg" /></a>
-						    </div>
-						  </div>
-						</div>
-							))}
+						{collections ? collections.map((collection, index) => {
+							return (
+								<div className="col-12 col-md-4 cards">
+									<div className="row">
+										<div className="col-9 image" style={{backgroundImage: `url(${collection.image})`}}>
+											<p className="texts-xl">{collection.name}</p>
+										</div>
+										<div className="col-3 caption">
+											<p className="texts-sm">{collection.description}</p>
+											<a href="/collection" className="btn-type-1">View more<img src="img/icons/arrow.svg" /></a>
+										</div>
+									</div>
+								</div>
+							)
+						}): null}
 					</div>
 				</div>
 			</section>
