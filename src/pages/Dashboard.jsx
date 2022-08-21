@@ -22,7 +22,7 @@ function Dashboard() {
 					      </div>
 					      <div className="col-3 caption">
 					        <p className="texts-sm">Your NFT collection with real life rewards and achievements</p>
-					        <a href="/collection" className="btn-type-1">Check collections<img src="img/icons/arrow.svg" /></a>
+					        <a href="/collections" className="btn-type-1">Check collections<img src="img/icons/arrow.svg" /></a>
 					      </div>
 					    </div>
 					  </div>
