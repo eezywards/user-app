@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="28" viewBox="0 0 16 28">
+  <defs>
+    <clipPath id="clip-Mesa_de_trabajo_2">
+      <rect width="16" height="28"/>
+    </clipPath>
+  </defs>
+  <g id="Mesa_de_trabajo_2" data-name="Mesa de trabajo – 2" clip-path="url(#clip-Mesa_de_trabajo_2)">
+    <path id="Icon_ionic-ios-arrow-back" data-name="Icon ionic-ios-arrow-back" d="M22.263,19.978,11.829,9.552A1.971,1.971,0,0,1,14.62,6.769L26.442,18.582A1.967,1.967,0,0,1,26.5,21.3l-11.871,11.9a1.971,1.971,0,0,1-2.791-2.783Z" transform="translate(-11.251 -6.194)"/>
+  </g>
+</svg>

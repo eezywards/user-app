@@ -6,7 +6,7 @@ import { NavLink, Router, Routes, Route } from "react-router-dom";
 
 function Content() {
   return (
-    <main>
+    <main id="home">
       <header>
         <div className="blue-stripe"></div>
         <div className="container">
@@ -53,7 +53,7 @@ function Content() {
       <section id="why">
         <hr />
         <div className="container">
-          <p className="texts-l">Why Eezywards?</p>
+          <p className="texts-lg">Why Eezywards?</p>
           <p className="texts-xl">Securing rewards program through blockchain</p>
           <div className="row">
             <div className="col-12 col-md-6 col-lg-3 square">
@@ -90,7 +90,7 @@ function Content() {
       {/*Use it your way*/}
       <section id="useit">
         <div className="container">
-          <p className="texts-l">Use it your way</p>
+          <p className="texts-lg">Use it your way</p>
           <p className="texts-xl">Ease of use for buyers and customers</p>
           <div className="row">
             <div className="col-12 col-md-6 cards">
@@ -99,7 +99,7 @@ function Content() {
                   <p className="texts-xl">Seller</p>
                 </div>
                 <div className="col-3 caption">
-                  <p className="texts-s">Pay with ease with a QR code, earn loyalty achievements and redeemable coupons.</p>
+                  <p className="texts-sm">Pay with ease with a QR code, earn loyalty achievements and redeemable coupons.</p>
                 </div>
               </div>
             </div>
@@ -109,7 +109,7 @@ function Content() {
                   <p className="texts-xl">Customer</p>
                 </div>
                 <div className="col-3 caption">
-                  <p className="texts-s">Set up your payment station in order to reward loyal customers through Web3 gifts.</p>
+                  <p className="texts-sm">Set up your payment station in order to reward loyal customers through Web3 gifts.</p>
                 </div>
               </div>
             </div>
