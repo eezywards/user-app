@@ -53,7 +53,7 @@ function Content() {
       <section id="why">
         <hr />
         <div className="container">
-          <p className="texts-lg">Why Eezywards?</p>
+          <p className="texts-lg azul">Why Eezywards?</p>
           <p className="texts-xl">Securing rewards program through blockchain</p>
           <div className="row">
             <div className="col-12 col-md-6 col-lg-3 square">
@@ -61,28 +61,28 @@ function Content() {
                 <div className="list-decor"></div>
                 <h5 className="texts-m mo-title">Unique identification and unrepeatable</h5>
               </div>
-              <p className="texts-m mo-text">Stripe opera  optimizando todos los niveles de la pila financiera, desde integracion directas con las redes de las tarjetas y bancos hasta flujos de compra en el navegador.</p>
+              <p className="texts-m mo-text">Thanks to WorldCoin verification process we make sure that every login is made in the safest way possible.</p>
             </div>
             <div className="col-12 col-md-6 col-lg-3 square">
               <div className="media-obj">
                 <div className="list-decor"></div>
                 <h5 className="texts-m mo-title">Safe assets transfers</h5>
               </div>
-              <p className="texts-m mo-text">Stripe opera  optimizando todos los niveles de la pila financiera, desde integracion directas con las redes de las tarjetas y bancos hasta flujos de compra en el navegador.</p>
+              <p className="texts-m mo-text">By using Polygon's we make sure to use te best option within the ETH ecosystem to transfer assets in the safest and fastest way. Also assuring to bring people form web 2 into web 3.</p>
             </div>
             <div className="col-12 col-md-6 col-lg-3 square">
               <div className="media-obj">
                 <div className="list-decor"></div>
                 <h5 className="texts-m mo-title">Non-transferable achievements</h5>
               </div>
-              <p className="texts-m mo-text">Stripe opera  optimizando todos los niveles de la pila financiera, desde integracion directas con las redes de las tarjetas y bancos hasta flujos de compra en el navegador.</p>
+              <p className="texts-m mo-text">By making non-transferable the achievements we ensure to make each goal personal and fair for all the community.</p>
             </div>
             <div className="col-12 col-md-6 col-lg-3 square">
               <div className="media-obj">
                 <div className="list-decor"></div>
                 <h5 className="texts-m mo-title">Loyalty coupons</h5>
               </div>
-              <p className="texts-m mo-text">Stripe opera  optimizando todos los niveles de la pila financiera, desde integracion directas con las redes de las tarjetas y bancos hasta flujos de compra en el navegador.</p>
+              <p className="texts-m mo-text">The more you buy, the more you earn. Each buy increases the chances of getting a cupon.</p>
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@ function Content() {
       {/*Use it your way*/}
       <section id="useit">
         <div className="container">
-          <p className="texts-lg">Use it your way</p>
+          <p className="texts-lg azul"><center>Use it your way</center></p>
           <p className="texts-xl">Ease of use for buyers and customers</p>
           <div className="row">
             <div className="col-12 col-md-6 cards">
@@ -109,7 +109,7 @@ function Content() {
                   <p className="texts-xl">Customer</p>
                 </div>
                 <div className="col-3 caption">
-                  <p className="texts-sm">Set up your payment station in order to reward loyal customers through Web3 gifts.</p>
+                  <p className="texts-sm justify">Set up your payment station in order to reward loyal customers through Web3 gifts.</p>
                 </div>
               </div>
             </div>
