@@ -32,18 +32,7 @@ function Content() {
                 <a href="https://polygon.technology/sustainability/" target="_blank">
                   <img src="./img/logo/polygon-logo-blue.png" />
                 </a>
-              </li>
-              {/*IPFS*/}
-              <li>
-                <a href="https://ipfs.tech/" target="_blank">
-                  <img src="./img/logo/ipfs-logo-blue.png" />
-                </a>
-              </li>
-              {/*Wallet Connect*/}
-              <li>
-                <a href="https://walletconnect.com/" target="_blank">
-                  <img src="./img/logo/walletconnect-logo-blue.png" />
-                </a>
+              
               </li>
             </ul>
           </div>
