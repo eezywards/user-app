@@ -66,7 +66,7 @@ function Collections() {
 										</div>
 										<div className="col-3 caption">
 											<p className="texts-sm">{collection.description}</p>
-											<a href="/collection" className="btn-type-1">View more<img src="img/icons/arrow.svg" /></a>
+											<a href={`/collection?${collection.name}`} className="btn-type-1">View more<img src="img/icons/arrow.svg" /></a>
 										</div>
 									</div>
 								</div>
