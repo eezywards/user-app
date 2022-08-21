@@ -71,8 +71,17 @@ body #dashboard section .cards:hover .caption { box-shadow: 0px 1px 25px 0px rgb
 #dashboard section.collection .container .title-row a { color: var(--azul); text-decoration: none; font-weight: 500; display: flex; height: 100%; align-items: flex-end; justify-content: flex-end; }
 #dashboard section.collection .container .title-row a img { width: auto; height: 1.3rem; margin-left: .5rem; filter: var(--filter-azul); }
 
-#dashboard section.collection .container .nft-metadata {  }
+#dashboard section.collection .container .nft-metadata {margin: 0 auto; }
 #dashboard section.collection .container .nft-metadata .nft-img {  }
 #dashboard section.collection .container .nft-metadata .nft-img img { display: block; margin-left: auto; margin-right: auto; width: 100%; }
-#dashboard section.collection .container .nft-metadata .nft-achievements {  }
+#dashboard section.collection .container .nft-metadata .nft-achievements { width: 100%; text-align: center; margin: auto 0; border-radius: 35px; background-color: #fff; padding: 1.5rem 1.5rem; margin-top: 1.5rem;}
+#dashboard section.collection .container .nft-metadata .nft-achievements .texts-xl { font-weight: bold; text-align: left; color: var(--azul);}
+#dashboard section.collection .container .nft-metadata .nft-achievements img { width: 40px; filter: var(--filter-azul)}
+#dashboard section.collection .container .nft-metadata .nft-achievements .row .row {
+    text-align: left;
+}
+#dashboard section.collection .container .nft-metadata .nft-achievements .texts-s { margin: 12px 0; margin-top: 0;}
+#dashboard .nft-metadata { max-width: 700px; }
+/* #dashboard .collection .container { margin: auto ;} */
+
 #dashboard section.collection .container .nft-metadata .nft-coupons {  }
