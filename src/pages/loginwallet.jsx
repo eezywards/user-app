@@ -9,7 +9,7 @@ import { DataContext } from "../context/DataContext";
 
 function LoginWallet() {
 
-    const { account, setAccount, setIsConnected } = useContext(DataContext);
+    const { account, setAccount, isConnected, setIsConnected } = useContext(DataContext);
 
     const connectMetamask = async () => {
         if (window.ethereum) {
@@ -36,7 +36,14 @@ function LoginWallet() {
             <div className="logos">
                 <center><img src="img/logo/eezywards-logo.svg" /></center>
                 <div className="bcontainers">
-                    <button onClick={connectMetamask} class="button buttonl2">Log in with wallet</button>
+                    {isConnected ? (
+                        <button disabled className="button buttonl4">Wallet connected</button>
+                    ) : (
+                        <button onClick={connectMetamask} class="button buttonl4">Connect wallet <img src="img/logo/metamask.svg" width={20} height={20} /></button>
+                    )}
+                    <div className="signin" style={{paddingTop: "10px"}}>
+                    <button className="button buttonl4" onClick={getUser}>Login</button>
+                    </div>
                 </div>
                 <div className="bcontainers">
                     <NavLink to="/"><span class="text">Go back</span></NavLink>
