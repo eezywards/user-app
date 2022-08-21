@@ -3,6 +3,9 @@ import "../css/main.css";
 import { NavLink, Router, Routes, Route } from "react-router-dom";
 
 function SignUp() {
+
+    
+
     return (
     <section className="allsection">
         <div className="logos">

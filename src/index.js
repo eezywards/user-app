@@ -9,12 +9,16 @@ import Home from './pages/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
+import { DataProvider } from './context/DataContext';
+
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <DataProvider>
+      <App />
+    </DataProvider>
   </React.StrictMode>
 );
 

@@ -34,6 +34,10 @@
     border: 1px solid black;
 }
 
+.buttonl1:disabled{
+    opacity: 0.5;
+}
+
 .buttonl2{
     padding-left: 6rem;
     padding-right: 6rem;
@@ -42,12 +46,28 @@
     border: none;
 }
 
+.buttonl2:disabled{
+    opacity: 0.5;
+}
+
 .buttonl3{
     padding-left: 5.2rem;
     padding-right: 5.2rem;
     background-color: var(--white);
     color:black;
     border: 1px solid black;
+}
+
+.buttonl4{
+    padding-left: 5.2rem;
+    padding-right: 5.2rem;
+    background-color: var(--white);
+    color:black;
+    border: 1px solid black;
+}
+
+.buttonl4:disabled{
+    opacity: 0.5;
 }
 
 .text{color: black;}
