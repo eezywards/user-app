@@ -1,0 +1,16 @@
+{
+"name": "Pizza Planet #1",
+"image": "https://eezywards.com/api/levels/pizzaplanet/1.png      
+"description": "Eezywards loyalty NFT for Pizza Planet",
+"attributes": [
+{
+"trait_type": "Level",
+"max_value": 3,
+"value": 1
+},
+{
+"trait_type": "Issuer",
+"value": "Pizza Planet"
+}
+]
+}
