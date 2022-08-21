@@ -22,7 +22,7 @@ function SignUp() {
         </div>
         <div className="bottomlogin">
         <div>Already registered?</div>
-        <NavLink to="/loginwallet"><span>Log in</span></NavLink>
+        <NavLink to="/loginwallet"><span>Login</span></NavLink>
         </div>
     </section>
       

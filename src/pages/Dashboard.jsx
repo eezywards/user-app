@@ -1,15 +1,27 @@
+import React, { useContext } from 'react';
+import {QRCodeSVG} from 'qrcode.react';
 import '../css/main.css';
 import '../css/dashboard.css';
 
 import UANavbar from '../components/UserAppNav';
 
+import { DataContext } from "../context/DataContext";
+
 function Dashboard() {
+
+	const { account } = useContext(DataContext);
+
+	const formatAddress = (address) => {
+		console.log(address);
+		return address.substring(0, 4) + "..." + address.substring(38);
+	}
+
 	return (
 		<main id="dashboard">
 			<UANavbar />
 			<header>
-				<div className="name"><span className="texts-l">0xE9...cdE9</span><img src="" /></div>
-				<img src="img/qrcode.png" className="qr-code" />
+				<div className="name"><span className="texts-l">{formatAddress(account[0])}</span><img src="" /></div>
+				<QRCodeSVG className="qr-code" value={account[0]} height={160} width={160}/>,
 				<p className="texts-lg">Scan QR at establishment to make purchase.</p>
 			</header>
 			<section id="content">
