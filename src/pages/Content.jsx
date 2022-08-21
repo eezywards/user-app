@@ -1,5 +1,7 @@
 import '../css/main.css';
 import '../css/home.css';
+import LoginWallet from '../pages/loginwallet';
+import { NavLink, Router, Routes, Route } from "react-router-dom";
 
 
 function Content() {
@@ -15,7 +17,7 @@ function Content() {
             <p className="texts-t2">
               Decentralized coupons and rewards center bridging Web3 and Web2.
             </p>
-            <button className="btn-type-1 texts-l">Sign up</button>
+            <NavLink to="/login-mobile" ><button className="btn-type-1 texts-l">Launch App</button></NavLink>
           </div>
           <div className="bottom-items">
             <ul className="network-logos">
