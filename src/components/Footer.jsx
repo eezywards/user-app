@@ -23,7 +23,7 @@ export default function Footer() {
         <div class="col-sm-2">
         <div class="row align-items-center">
                 <div class="footer-subtitle col-sm-12">Tools </div></div>
-             <div class="footer-text row align-items-center"><div class="col-sm-12"> Polygon <br/> WalletConnect  <br/> Worldcoin  <br/> IPFS
+             <div class="footer-text row align-items-center"><div class="col-sm-12"> <a href="https://polygon.technology/" target="_blank">Polygon</a> <br/> <a href="https://worldcoin.org/" target="_blank">Worldcoin</a> 
              </div></div>
         </div>
 

@@ -7,7 +7,7 @@ import { NavLink, Router, Routes, Route } from "react-router-dom";
 export default function Navbar() {
     return (
       <nav className="navigation">
-        <NavLink to="/"><img className="logo-image" src="img/logo/eezywards-logo.svg"/>
+        <NavLink to="/"><img className="logo-image" src="img/logo/eezywards-logo.png"/>
         </NavLink>
         <div className="navigation-menu">
           <ul>
