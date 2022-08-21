@@ -63,8 +63,9 @@ body #dashboard section .cards:hover .caption { box-shadow: 0px 1px 25px 0px rgb
 #dashboard .btn-type-1 img { filter: invert(100%); width: auto; height: .8rem; margin-left: .75rem; vertical-align: baseline; }
 
 
-#dashboard .collection { height: 100vh; }
-#dashboard .collection .container { height: 100%; padding-top: 4.5rem; }
-#dashboard .collection .container .f-row .texts-xl { font-weight: 700; margin-bottom: 0; }
-#dashboard .collection .container .f-row a { color: var(--azul); text-decoration: none; font-weight: 500; display: flex; height: 100%; align-items: flex-end; justify-content: flex-end; }
-#dashboard .collection .container .f-row a img { width: auto; height: 1.3rem; margin-left: .5rem; filter: var(--filter-azul); }
+#dashboard section.collection { min-height: 100vh; height: 100%; }
+#dashboard section.collection .container { height: 100%; padding-top: 4.5rem; }
+#dashboard section.collection .container .title-row { margin-bottom: 1rem; }
+#dashboard section.collection .container .title-row .texts-xl { font-weight: 700; margin-bottom: 0; }
+#dashboard section.collection .container .title-row a { color: var(--azul); text-decoration: none; font-weight: 500; display: flex; height: 100%; align-items: flex-end; justify-content: flex-end; }
+#dashboard section.collection .container .title-row a img { width: auto; height: 1.3rem; margin-left: .5rem; filter: var(--filter-azul); }

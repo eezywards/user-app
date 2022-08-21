@@ -4,6 +4,7 @@ import Home from './pages/Home';
 
 import UserApp from './pages/UserApp';
 import Dashboard from './pages/Dashboard';
+import Collections from './pages/Collections';
 import Collection from './pages/Collection';
 import Coupons from './pages/Coupons';
 
@@ -26,6 +27,7 @@ function App() {
                 
                 <Route path="/userapp" element={ <UserApp /> } />
                 <Route path="/dashboard" element={ <Dashboard /> } />
+                <Route path="/collections" element={ <Collections /> } />
                 <Route path="/collection" element={ <Collection /> } />
                 <Route path="/coupons" element={ <Coupons /> } />
 
