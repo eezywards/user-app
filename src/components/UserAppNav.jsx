@@ -53,11 +53,11 @@ function UserAppNav() {
 								<img src="img/icons/arrow.svg" />
 							</NavLink>
 						</li>
-						<li>
-							<NavLink to="/coupons" onClick={closeNav}>
+						<li className="disabled">
+							<a>
 								<span className="texts-t3">Coupons</span>
 								<img src="img/icons/arrow.svg" />
-							</NavLink>
+							</a>
 						</li>
 						<li className="disabled">
 							<a>

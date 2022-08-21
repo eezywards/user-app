@@ -16,7 +16,7 @@ function Collection() {
 				<div className="container">
 					<div className="row title-row">
 						<div className="col-7">
-							<p id="collection-name" className="texts-xl">Pizza Planet #0 Placeholder</p>
+							<p id="collection-name" className="texts-xl">Pizza Planet #0</p>
 						</div>
 						<div className="col-5">
 							<a href="/collections" className="texts-sm">Go back <img src="img/icons/back.svg" /> </a>

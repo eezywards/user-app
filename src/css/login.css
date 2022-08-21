@@ -17,6 +17,8 @@
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);}
 
+.bottomlogin a {color: var(--azul);}
+
 .button{
     text-align: center;
     text-decoration: none;

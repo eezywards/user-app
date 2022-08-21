@@ -38,14 +38,14 @@ function Dashboard() {
 					      </div>
 					    </div>
 					  </div>
-					  <div className="col-12 col-md-4 cards">
+					  <div className="col-12 col-md-4 cards disabled">
 					    <div className="row">
 					      <div className="col-9 image image-coupons">
 					        <p className="texts-xl">Coupons</p>
 					      </div>
 					      <div className="col-3 caption">
 					        <p className="texts-sm">Level up and recieve coupons for discounts and prizes</p>
-					        <a href="/coupons" className="btn-type-1">Check coupons<img src="img/icons/arrow.svg" /></a>
+					        <a className="btn-type-1">Coming soon<img src="img/icons/arrow.svg" /></a>
 					      </div>
 					    </div>
 					  </div>
