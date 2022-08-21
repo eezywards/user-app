@@ -48,7 +48,7 @@ function UserAppNav() {
 							</NavLink>
 						</li>
 						<li>
-							<NavLink to="/collection" onClick={closeNav}>
+							<NavLink to="/collections" onClick={closeNav}>
 								<span className="texts-t3">Collection & Achievements</span>
 								<img src="img/icons/arrow.svg" />
 							</NavLink>

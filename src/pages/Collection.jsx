@@ -9,12 +9,12 @@ function Collection() {
 			<UANavbar />
 			<section className="collection">
 				<div className="container">
-					<div className="row f-row">
+					<div className="row title-row">
 						<div className="col-7">
 							<p className="texts-xl">Starbucks</p>
 						</div>
 						<div className="col-5">
-							<a href="/dashboard" className="texts-sm">Go back <img src="img/icons/back.svg" /> </a>
+							<a href="/collections" className="texts-sm">Go back <img src="img/icons/back.svg" /> </a>
 						</div>
 					</div>
 					<div className="col-6"></div>
